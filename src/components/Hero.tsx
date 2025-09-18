@@ -63,11 +63,11 @@ export default function Hero() {
             {/* Hero Content */}
             <div className="space-y-10 relative z-10">
             <div className="space-y-6">
-               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.1] tracking-tight">
+               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-[1.1] tracking-tight p-2 pt-6">
                  <span className="block bg-gradient-to-r from-white via-gray-50 to-white bg-clip-text text-transparent drop-shadow-[0_4px_12px_rgba(0,0,0,0.9)] animate-slideInLeft" style={{ animationDelay: '0.2s' }}>
                    {t('title')}
                  </span>
-                 <span className="block bg-gradient-to-r from-orange-300 via-red-400 to-orange-500 bg-clip-text text-transparent drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] mt-1 md:mt-2 animate-slideInLeft" style={{ animationDelay: '0.4s' }}>
+                 <span className="block text-foenix-gradient drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)] mt-1 md:mt-2 animate-slideInLeft" style={{ animationDelay: '0.4s' }}>
                    {t('subtitle')}
                  </span>
                </h1>
