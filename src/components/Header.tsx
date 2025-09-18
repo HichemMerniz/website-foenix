@@ -39,7 +39,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             <Link
               href="#services"
               className="text-gray-700 hover:text-foenix-orange transition-colors duration-200 font-medium"
@@ -68,6 +68,29 @@ export default function Header() {
             <Link
               href="#contact"
               className="bg-foenix-gradient text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+            >
+              {t('getStarted')}
+            </Link>
+          </nav>
+
+          {/* Tablet Navigation */}
+          <nav className="hidden md:flex lg:hidden items-center space-x-4">
+            <Link
+              href="#services"
+              className="text-gray-700 hover:text-foenix-orange transition-colors duration-200 font-medium text-sm"
+            >
+              {t('services')}
+            </Link>
+            <Link
+              href="#about"
+              className="text-gray-700 hover:text-foenix-orange transition-colors duration-200 font-medium text-sm"
+            >
+              {t('about')}
+            </Link>
+            <LanguageSwitcher />
+            <Link
+              href="#contact"
+              className="bg-foenix-gradient text-white px-4 py-2 rounded-full font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200 text-sm"
             >
               {t('getStarted')}
             </Link>
@@ -115,35 +138,35 @@ export default function Header() {
                 className="block px-3 py-2 text-gray-700 hover:text-foenix-orange transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Services
+{t('services')}
               </Link>
               <Link
                 href="#about"
                 className="block px-3 py-2 text-gray-700 hover:text-foenix-orange transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About
+{t('about')}
               </Link>
               <Link
                 href="#case-studies"
                 className="block px-3 py-2 text-gray-700 hover:text-foenix-orange transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Case Studies
+{t('caseStudies')}
               </Link>
               <Link
                 href="#contact"
                 className="block px-3 py-2 text-gray-700 hover:text-foenix-orange transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+{t('contact')}
               </Link>
               <Link
                 href="#contact"
                 className="block mx-3 mt-4 bg-foenix-gradient text-white px-6 py-2 rounded-full font-semibold text-center hover:shadow-lg transform hover:scale-105 transition-all duration-200"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Get Started
+{t('getStarted')}
               </Link>
             </div>
           </div>

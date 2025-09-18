@@ -69,10 +69,10 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-12 md:py-16 lg:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12 md:mb-16">
           <div className="flex justify-center mb-6">
             <div className="relative w-20 h-20 animate-phoenix-rise">
               <Image
@@ -94,8 +94,8 @@ export default function About() {
         </div>
 
         {/* Mission & Vision */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
-          <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 mb-16 md:mb-20">
+          <div className="bg-gray-50 rounded-2xl p-6 md:p-8 lg:p-12">
             <div className="w-16 h-16 bg-foenix-gradient rounded-xl flex items-center justify-center text-white mb-6">
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -110,7 +110,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
+          <div className="bg-gray-50 rounded-2xl p-6 md:p-8 lg:p-12">
             <div className="w-16 h-16 bg-foenix-gradient rounded-xl flex items-center justify-center text-white mb-6">
               <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -128,8 +128,8 @@ export default function About() {
         </div>
 
         {/* Our Process */}
-        <div className="mb-20">
-          <div className="text-center mb-16">
+        <div className="mb-16 md:mb-20">
+          <div className="text-center mb-12 md:mb-16">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-foenix-gradient rounded-2xl mb-6">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -148,7 +148,7 @@ export default function About() {
             {/* Connection Line */}
             <div className="hidden lg:block absolute top-20 left-0 right-0 h-0.5 bg-gradient-to-r from-foenix-orange via-foenix-red to-foenix-orange opacity-30"></div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-4">
               {processSteps.map((step, index) => (
                 <div key={index} className="relative group">
                   {/* Step Number Badge */}
@@ -216,8 +216,8 @@ export default function About() {
         </div>
 
         {/* Team Section */}
-        <div className="mb-20">
-          <div className="text-center mb-12">
+        <div className="mb-16 md:mb-20">
+          <div className="text-center mb-10 md:mb-12">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h3>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Experienced professionals dedicated to delivering exceptional results 
@@ -225,7 +225,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {teamMembers.map((member, index) => (
               <div key={index} className="bg-gray-50 rounded-2xl p-8 text-center group hover:shadow-lg transition-all duration-300">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">

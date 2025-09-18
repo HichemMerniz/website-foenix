@@ -79,10 +79,10 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-12 md:py-16 lg:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12 md:mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Get In <span className="text-foenix-gradient">Touch</span>
           </h2>
@@ -92,10 +92,10 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
           {/* Contact Information */}
           <div className="lg:col-span-1">
-            <div className="space-y-8">
+            <div className="space-y-6 md:space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
                 <p className="text-gray-600 mb-8">

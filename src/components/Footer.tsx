@@ -32,8 +32,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
@@ -78,7 +78,7 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Services</h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2 md:space-y-3">
               {footerLinks.services.map((link, index) => (
                 <li key={index}>
                   <Link
@@ -95,7 +95,7 @@ export default function Footer() {
           {/* Company */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Company</h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2 md:space-y-3">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
                   <Link
@@ -112,7 +112,7 @@ export default function Footer() {
           {/* Resources */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Resources</h4>
-            <ul className="space-y-3">
+            <ul className="space-y-2 md:space-y-3">
               {footerLinks.resources.map((link, index) => (
                 <li key={index}>
                   <Link
@@ -128,15 +128,15 @@ export default function Footer() {
         </div>
 
         {/* Newsletter Signup */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div className="mt-10 md:mt-12 pt-6 md:pt-8 border-t border-gray-800">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 items-center">
             <div>
               <h4 className="text-lg font-semibold mb-2">Stay Updated</h4>
               <p className="text-gray-400">
                 Get the latest insights on technology trends and business transformation tips.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -150,9 +150,9 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 text-sm mb-4 md:mb-0">
+        <div className="mt-10 md:mt-12 pt-6 md:pt-8 border-t border-gray-800">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="text-gray-400 text-sm">
               © {currentYear} Foenix Tech. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
