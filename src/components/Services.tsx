@@ -154,7 +154,7 @@ export default function Services() {
               Ready to Transform Your Business?
             </h3>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Let's discuss how our expertise can help you rise from challenges 
+              Let&apos;s discuss how our expertise can help you rise from challenges 
               and achieve unprecedented growth in your industry.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

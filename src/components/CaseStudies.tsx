@@ -68,7 +68,7 @@ export default function CaseStudies() {
             Success <span className="text-foenix-gradient">Stories</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Real transformations, real results. See how we've helped businesses 
+            Real transformations, real results. See how we&apos;ve helped businesses 
             rise from challenges to achieve unprecedented excellence.
           </p>
         </div>
@@ -140,7 +140,7 @@ export default function CaseStudies() {
                     </svg>
                   </div>
                   <blockquote className="text-lg mb-6 leading-relaxed">
-                    "{study.testimonial}"
+                    &ldquo;{study.testimonial}&rdquo;
                   </blockquote>
                   <div>
                     <div className="font-semibold">{study.author}</div>
@@ -174,7 +174,7 @@ export default function CaseStudies() {
             </h3>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
               Join the growing list of businesses that have transformed their operations 
-              with Foenix Tech's expertise.
+              with Foenix Tech&apos;s expertise.
             </p>
             <a
               href="#contact"

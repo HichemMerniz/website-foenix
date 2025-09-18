@@ -87,7 +87,7 @@ export default function Contact() {
             Get In <span className="text-foenix-gradient">Touch</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to transform your business? Let's discuss how we can help you 
+            Ready to transform your business? Let&apos;s discuss how we can help you 
             rise from challenges to achieve unprecedented excellence.
           </p>
         </div>
@@ -99,8 +99,8 @@ export default function Contact() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
                 <p className="text-gray-600 mb-8">
-                  We're here to help you transform your business. Reach out to us 
-                  through any of these channels and we'll get back to you promptly.
+                  We&apos;re here to help you transform your business. Reach out to us 
+                  through any of these channels and we&apos;ll get back to you promptly.
                 </p>
               </div>
 

@@ -104,7 +104,7 @@ export default function About() {
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
             <p className="text-gray-600 leading-relaxed">
               To empower businesses with cutting-edge technology solutions that transform 
-              challenges into opportunities for growth, efficiency, and innovation. We're 
+              challenges into opportunities for growth, efficiency, and innovation. We&apos;re 
               committed to delivering excellence in every project, helping our clients 
               rise from their current state to achieve their highest potential.
             </p>
