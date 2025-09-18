@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "services": "Services",
+    "about": "À propos",
+    "caseStudies": "Études de cas",
+    "contact": "Contact",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "title": "Transformez votre entreprise",
+    "subtitle": "Des cendres à l'excellence",
+    "description": "Services professionnels de mise en réseau et de conseil en logiciels qui aident les entreprises à surmonter les défis pour atteindre une croissance sans précédent et une transformation numérique.",
+    "features": {
+      "networkInfrastructure": {
+        "title": "Infrastructure réseau",
+        "description": "Solutions de mise en réseau évolutives et sécurisées"
+      },
+      "softwareSolutions": {
+        "title": "Solutions logicielles",
+        "description": "Développement de logiciels personnalisés et conseil"
+      },
+      "devOpsExcellence": {
+        "title": "Excellence DevOps",
+        "description": "Déploiement et opérations rationalisés"
+      },
+      "support": {
+        "title": "Support 24/7",
+        "description": "Assistance technique 24h/24 et 7j/7"
+      }
+    },
+    "cta": {
+      "startTransformation": "Commencez votre transformation",
+      "viewSuccessStories": "Voir les histoires de succès"
+    }
+  },
+  "footer": {
+    "company": "Entreprise",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "allRightsReserved": "Tous droits réservés."
+  },
+  "common": {
+    "scrollToTop": "Retour en haut"
+  }
+}

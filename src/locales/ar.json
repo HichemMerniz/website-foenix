@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "services": "الخدمات",
+    "about": "حولنا",
+    "caseStudies": "دراسات الحالة",
+    "contact": "اتصل بنا",
+    "getStarted": "ابدأ الآن"
+  },
+  "hero": {
+    "title": "حوّل عملك",
+    "subtitle": "من الرماد إلى التميز",
+    "description": "خدمات الشبكات المهنية والاستشارات البرمجية التي تساعد الشركات على الارتقاء من التحديات لتحقيق نمو غير مسبوق والتحول الرقمي.",
+    "features": {
+      "networkInfrastructure": {
+        "title": "البنية التحتية للشبكة",
+        "description": "حلول شبكية قابلة للتوسع وآمنة"
+      },
+      "softwareSolutions": {
+        "title": "الحلول البرمجية",
+        "description": "تطوير برمجيات مخصصة واستشارات"
+      },
+      "devOpsExcellence": {
+        "title": "تميز DevOps",
+        "description": "نشر وعمليات مبسطة"
+      },
+      "support": {
+        "title": "دعم 24/7",
+        "description": "مساعدة تقنية على مدار الساعة"
+      }
+    },
+    "cta": {
+      "startTransformation": "ابدأ تحولك",
+      "viewSuccessStories": "عرض قصص النجاح"
+    }
+  },
+  "footer": {
+    "company": "الشركة",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "followUs": "تابعنا",
+    "allRightsReserved": "جميع الحقوق محفوظة."
+  },
+  "common": {
+    "scrollToTop": "العودة للأعلى"
+  }
+}

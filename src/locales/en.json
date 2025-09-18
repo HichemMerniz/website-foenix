@@ -1,0 +1,46 @@
+{
+  "navigation": {
+    "services": "Services",
+    "about": "About",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Transform Your Business",
+    "subtitle": "From Ashes to Excellence",
+    "description": "Professional networking and software consulting services that help businesses rise from challenges to achieve unprecedented growth and digital transformation.",
+    "features": {
+      "networkInfrastructure": {
+        "title": "Network Infrastructure",
+        "description": "Scalable, secure networking solutions"
+      },
+      "softwareSolutions": {
+        "title": "Software Solutions",
+        "description": "Custom software development & consulting"
+      },
+      "devOpsExcellence": {
+        "title": "DevOps Excellence",
+        "description": "Streamlined deployment & operations"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical assistance"
+      }
+    },
+    "cta": {
+      "startTransformation": "Start Your Transformation",
+      "viewSuccessStories": "View Success Stories"
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved."
+  },
+  "common": {
+    "scrollToTop": "Scroll to top"
+  }
+}
