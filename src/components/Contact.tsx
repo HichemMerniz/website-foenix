@@ -52,7 +52,7 @@ export default function Contact() {
         </svg>
       ),
       title: "Email Us",
-      details: "hello@foenixtech.com",
+      details: "technofoenix3@gmail.com",
       subtitle: "We'll respond within 24 hours"
     },
     {
@@ -62,8 +62,8 @@ export default function Contact() {
         </svg>
       ),
       title: "Call Us",
-      details: "+1 (555) 123-4567",
-      subtitle: "Mon-Fri 9AM-6PM EST"
+      details: "+213 0560 52 59 00",
+      subtitle: "24/7"
     },
     {
       icon: (
@@ -72,9 +72,9 @@ export default function Contact() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       ),
-      title: "Visit Us",
-      details: "123 Tech Street, Suite 100",
-      subtitle: "San Francisco, CA 94105"
+      title: "Meet In Person",
+      details: "On-site consultations available",
+      subtitle: "We can visit your location"
     }
   ];
 

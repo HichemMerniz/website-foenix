@@ -76,7 +76,7 @@ export default function About() {
           <div className="flex justify-center mb-6">
             <div className="relative w-20 h-20 animate-phoenix-rise">
               <Image
-                src="/foenixLogo.png"
+                src="/logo.svg"
                 alt="Foenix Phoenix Logo"
                 width={80}
                 height={80}
