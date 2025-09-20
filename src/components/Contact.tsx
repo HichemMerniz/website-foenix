@@ -122,13 +122,13 @@ export default function Contact() {
                 <h4 className="font-semibold text-gray-900 mb-4">Follow Us</h4>
                 <div className="flex space-x-4">
                   {[
-                    { name: 'LinkedIn', icon: '💼' },
-                    { name: 'Twitter', icon: '🐦' },
-                    { name: 'GitHub', icon: '💻' }
+                    { name: 'LinkedIn', icon: '/linkedin.png', href: 'https://www.linkedin.com/company/foenix-tech' },
+                    { name: 'Facebook', icon: '/facebook.png', href: 'https://www.facebook.com/foenixtechno' },
+                    { name: 'Instagram', icon: '/instagram.png', href: 'https://www.instagram.com/foenix_techno/?fbclid=IwY2xjawM7_ARleHRuA2FlbQIxMQBicmlkETE0NzhWeVhURk4yNmpRM0VEAR5L1XtwVQ-aLTJPfUuW0Vs9dkPWurOE7o1qfKuMMFk-AoN18eJQTDtI0evNlw_aem_uxOilCGTH2pjSMQTVJ3Bdw' }
                   ].map((social, index) => (
                     <a
                       key={index}
-                      href="#"
+                      href={social.href}
                       className="w-10 h-10 bg-gray-200 rounded-lg flex items-center justify-center hover:bg-foenix-orange hover:text-white transition-colors duration-200"
                       aria-label={social.name}
                     >

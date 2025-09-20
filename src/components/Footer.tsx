@@ -1,33 +1,33 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const footerLinks = {
     services: [
-      { name: 'Network Infrastructure', href: '#services' },
-      { name: 'Software Development', href: '#services' },
-      { name: 'DevOps & Automation', href: '#services' },
-      { name: 'Security Consulting', href: '#services' },
-      { name: 'Performance Optimization', href: '#services' },
-      { name: '24/7 Support', href: '#services' }
+      { name: "Network Infrastructure", href: "#services" },
+      { name: "Software Development", href: "#services" },
+      { name: "DevOps & Automation", href: "#services" },
+      { name: "Security Consulting", href: "#services" },
+      { name: "Performance Optimization", href: "#services" },
+      { name: "24/7 Support", href: "#services" },
     ],
     company: [
-      { name: 'About Us', href: '#about' },
-      { name: 'Our Process', href: '#about' },
-      { name: 'Case Studies', href: '#case-studies' },
-      { name: 'Contact', href: '#contact' }
+      { name: "About Us", href: "#about" },
+      { name: "Our Process", href: "#about" },
+      { name: "Case Studies", href: "#case-studies" },
+      { name: "Contact", href: "#contact" },
     ],
     resources: [
-      { name: 'Blog', href: '#' },
-      { name: 'Documentation', href: '#' },
-      { name: 'Support Center', href: '#' },
-      { name: 'Privacy Policy', href: '#' },
-      { name: 'Terms of Service', href: '#' }
-    ]
+      { name: "Blog", href: "#" },
+      { name: "Documentation", href: "#" },
+      { name: "Support Center", href: "#" },
+      { name: "Privacy Policy", href: "#" },
+      { name: "Terms of Service", href: "#" },
+    ],
   };
 
   return (
@@ -48,20 +48,38 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Foenix</h3>
-                <p className="text-sm text-gray-400">From Ashes to Excellence</p>
+                <p className="text-sm text-gray-400">
+                  From Ashes to Excellence
+                </p>
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Transforming businesses through cutting-edge technology solutions. 
-              We help you rise from challenges to achieve unprecedented excellence 
-              in networking and software development.
+              Transforming businesses through cutting-edge technology solutions.
+              We help you rise from challenges to achieve unprecedented
+              excellence in networking and software development.
             </p>
             <div className="flex space-x-4">
               {[
-                { name: 'LinkedIn', href: '#', icon: '💼' },
-                { name: 'Twitter', href: '#', icon: '🐦' },
-                { name: 'GitHub', href: '#', icon: '💻' },
-                { name: 'Email', href: 'mailto:hello@foenixtech.com', icon: '📧' }
+                {
+                  name: "LinkedIn",
+                  icon: "/linkedin.png",
+                  href: "https://www.linkedin.com/company/foenix-tech",
+                },
+                {
+                  name: "Facebook",
+                  icon: "/facebook.png",
+                  href: "https://www.facebook.com/foenixtechno",
+                },
+                {
+                  name: "Instagram",
+                  icon: "/instagram.png",
+                  href: "https://www.instagram.com/foenix_techno/?fbclid=IwY2xjawM7_ARleHRuA2FlbQIxMQBicmlkETE0NzhWeVhURk4yNmpRM0VEAR5L1XtwVQ-aLTJPfUuW0Vs9dkPWurOE7o1qfKuMMFk-AoN18eJQTDtI0evNlw_aem_uxOilCGTH2pjSMQTVJ3Bdw",
+                },
+                // {
+                //   name: "Email",
+                //   href: "mailto:hello@foenixtech.com",
+                //   icon: "📧",
+                // },
               ].map((social, index) => (
                 <a
                   key={index}
@@ -69,7 +87,7 @@ export default function Footer() {
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-foenix-orange transition-colors duration-200"
                   aria-label={social.name}
                 >
-                  <span className="text-lg">{social.icon}</span>
+                  <Image src={social.icon} alt={social.name} width={48} height={48} />
                 </a>
               ))}
             </div>
@@ -133,7 +151,8 @@ export default function Footer() {
             <div>
               <h4 className="text-lg font-semibold mb-2">Stay Updated</h4>
               <p className="text-gray-400">
-                Get the latest insights on technology trends and business transformation tips.
+                Get the latest insights on technology trends and business
+                transformation tips.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4">
@@ -156,13 +175,22 @@ export default function Footer() {
               © {currentYear} Foenix Tech. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <Link href="#" className="text-gray-400 hover:text-foenix-orange transition-colors duration-200">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-foenix-orange transition-colors duration-200"
+              >
                 Privacy Policy
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-foenix-orange transition-colors duration-200">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-foenix-orange transition-colors duration-200"
+              >
                 Terms of Service
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-foenix-orange transition-colors duration-200">
+              <Link
+                href="#"
+                className="text-gray-400 hover:text-foenix-orange transition-colors duration-200"
+              >
                 Cookie Policy
               </Link>
             </div>
