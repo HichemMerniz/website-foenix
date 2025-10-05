@@ -122,7 +122,7 @@ export default function About() {
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
               We follow a structured, proven methodology that ensures successful outcomes 
               and lasting transformations for every client. Our 4-step process has delivered 
-              exceptional results for over 150+ projects.
+              exceptional results for over 15+ projects.
             </p>
           </div>
 
@@ -187,7 +187,7 @@ export default function About() {
                 <div className="text-gray-600 font-medium">Structured Steps</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-foenix-orange mb-2">150+</div>
+                <div className="text-3xl font-bold text-foenix-orange mb-2">15+</div>
                 <div className="text-gray-600 font-medium">Projects Completed</div>
               </div>
               <div>

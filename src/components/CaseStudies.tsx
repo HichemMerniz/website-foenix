@@ -53,9 +53,9 @@ export default function CaseStudies() {
   ];
 
   const metrics = [
-    { number: "150+", label: "Projects Completed" },
+    { number: "15+", label: "Projects Completed" },
     { number: "99.9%", label: "Average Uptime" },
-    { number: "50+", label: "Happy Clients" },
+    // { number: "50+", label: "Happy Clients" },
     { number: "24/7", label: "Support Available" }
   ];
 
