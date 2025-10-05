@@ -2,9 +2,14 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = useState(2024);
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   const footerLinks = {
     services: [
@@ -75,11 +80,7 @@ export default function Footer() {
                   icon: "/instagram.png",
                   href: "https://www.instagram.com/foenix_techno/?fbclid=IwY2xjawM7_ARleHRuA2FlbQIxMQBicmlkETE0NzhWeVhURk4yNmpRM0VEAR5L1XtwVQ-aLTJPfUuW0Vs9dkPWurOE7o1qfKuMMFk-AoN18eJQTDtI0evNlw_aem_uxOilCGTH2pjSMQTVJ3Bdw",
                 },
-                // {
-                //   name: "Email",
-                //   href: "mailto:hello@foenixtech.com",
-                //   icon: "📧",
-                // },
+                
               ].map((social, index) => (
                 <a
                   key={index}

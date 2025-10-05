@@ -17,16 +17,9 @@ export default function LanguageSwitcher() {
 
   const currentLanguage = languages.find(lang => lang.code === locale);
 
-  // Debug logging
-  console.log('Current locale:', locale);
-  console.log('Current pathname:', pathname);
-
   const handleLanguageChange = (newLocale: string) => {
-    console.log('Switching to locale:', newLocale);
-    
     // Get the current path without the locale prefix
     const segments = pathname.split('/').filter(Boolean);
-    console.log('Current segments:', segments);
     
     // Remove the first segment (current locale) if it exists
     if (segments.length > 0 && ['en', 'fr', 'ar'].includes(segments[0])) {
@@ -36,8 +29,6 @@ export default function LanguageSwitcher() {
     // Construct the new path with the new locale
     const pathWithoutLocale = segments.join('/');
     const newPath = `/${newLocale}${pathWithoutLocale ? `/${pathWithoutLocale}` : ''}`;
-    
-    console.log('New path:', newPath);
     
     // Navigate to the new locale and refresh the window
     window.location.href = newPath;

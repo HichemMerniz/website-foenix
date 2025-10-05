@@ -132,7 +132,7 @@ export default function Contact() {
                       className="w-10 h-10 bg-gray-200 rounded-lg flex items-center justify-center hover:bg-foenix-orange hover:text-white transition-colors duration-200"
                       aria-label={social.name}
                     >
-                      <span className="text-lg">{social.icon}</span>
+                      <img src={social.icon} alt={social.name} width={20} height={20} />
                     </a>
                   ))}
                 </div>
