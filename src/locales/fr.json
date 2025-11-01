@@ -40,6 +40,73 @@
     "followUs": "Suivez-nous",
     "allRightsReserved": "Tous droits réservés."
   },
+   "services": {
+    "our": "Nos",
+    "services": "Services",
+    "description": "Solutions technologiques complètes conçues pour transformer votre entreprise.",
+    "list": [
+      {
+        "title": "Infrastructure Réseau",
+        "description": "Concevoir, implémenter et optimiser des réseaux d'entreprise.",
+        "features": [
+          "Architecture réseau cloud",
+          "Mise en œuvre de la sécurité",
+          "Optimisation des performances",
+          "Plan de reprise après sinistre"
+        ]
+      },
+      {
+        "title": "Développement Logiciel",
+        "description": "Solutions logicielles personnalisées construites avec les meilleures pratiques.",
+        "features": [
+          "Applications web sur mesure",
+          "Développement d'API",
+          "Conception de bases de données",
+          "Intégrations tierces"
+        ]
+      },
+      {
+        "title": "DevOps & Automatisation",
+        "description": "Pipelines CI/CD automatisés et gestion d'infrastructure pour accélérer la livraison.",
+        "features": [
+          "Configuration de pipelines CI/CD",
+          "Orchestration de conteneurs",
+          "Infrastructure as Code",
+          "Monitoring et journalisation"
+        ]
+      },
+      {
+        "title": "Conseil en Sécurité",
+        "description": "Audits et mises en œuvre pour protéger vos actifs numériques.",
+        "features": [
+          "Audits de sécurité",
+          "Conseil en conformité",
+          "Évaluation des menaces",
+          "Réponse aux incidents"
+        ]
+      },
+      {
+        "title": "Optimisation des Performances",
+        "description": "Optimisation basée sur les données des applications et de l'infrastructure.",
+        "features": [
+          "Profilage d'applications",
+          "Optimisation de base de données",
+          "Stratégies de mise en cache",
+          "Répartition de charge"
+        ]
+      },
+      {
+        "title": "Support 24/7",
+        "description": "Support technique continu pour les systèmes critiques.",
+        "features": [
+          "Supervision 24/7",
+          "Temps de réponse rapides",
+          "Maintenance proactive",
+          "Support d'urgence"
+        ]
+      }
+    ]
+  },
   "common": {
     "scrollToTop": "Retour en haut"
   }

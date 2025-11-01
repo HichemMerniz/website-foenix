@@ -40,6 +40,73 @@
     "followUs": "Follow Us",
     "allRightsReserved": "All rights reserved."
   },
+  "services": {
+    "our": "Our",
+    "services": "Services",
+    "description": "Comprehensive technology solutions designed to transform your business.",
+    "list": [
+      {
+        "title": "Network Infrastructure",
+        "description": "Design, implement, and optimize enterprise-grade network solutions.",
+        "features": [
+          "Cloud network architecture",
+          "Security implementation",
+          "Performance optimization",
+          "Disaster recovery planning"
+        ]
+      },
+      {
+        "title": "Software Development",
+        "description": "Custom software solutions built with modern technologies and best practices.",
+        "features": [
+          "Custom web applications",
+          "API development",
+          "Database design",
+          "Third-party integrations"
+        ]
+      },
+      {
+        "title": "DevOps & Automation",
+        "description": "Automated CI/CD pipelines and infrastructure management to speed delivery.",
+        "features": [
+          "CI/CD pipeline setup",
+          "Container orchestration",
+          "Infrastructure as Code",
+          "Monitoring & logging"
+        ]
+      },
+      {
+        "title": "Security Consulting",
+        "description": "Security assessments and implementations to protect digital assets.",
+        "features": [
+          "Security audits",
+          "Compliance consulting",
+          "Threat assessment",
+          "Incident response"
+        ]
+      },
+      {
+        "title": "Performance Optimization",
+        "description": "Data-driven optimization for applications and infrastructure.",
+        "features": [
+          "Application profiling",
+          "Database optimization",
+          "Caching strategies",
+          "Load balancing"
+        ]
+      },
+      {
+        "title": "24/7 Support",
+        "description": "Round-the-clock technical support for mission-critical systems.",
+        "features": [
+          "24/7 monitoring",
+          "Rapid response times",
+          "Proactive maintenance",
+          "Emergency support"
+        ]
+      }
+    ]
+  },
   "common": {
     "scrollToTop": "Scroll to top"
   }
